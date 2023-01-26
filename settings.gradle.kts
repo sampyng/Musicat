@@ -13,6 +13,6 @@ dependencyResolutionManagement {
   }
 }
 rootProject.name = "Musicat"
-include ':mobile'
-include ':automotive'
-include ':shared'
+include(":mobile")
+include(":automotive")
+include(":shared")
